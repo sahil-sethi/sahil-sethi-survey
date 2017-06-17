@@ -1,0 +1,248 @@
+<!-- SurveyComponent HTML -->
+<div class="container">
+
+  <div class='test' [hidden]="submitted">
+
+    <form #skillsForm="ngForm" (submit)="onSubmit($event)">
+        <hr>
+        <div class='row'>
+          <span *ngIf="name != ''" class="glyphicon glyphicon-ok-sign"></span>
+          <div class='col-sm-5'>Name:</div>
+          <div class='col-sm-4'>
+            <input type="text" placeholder='Sahil Sethi' class='form-control' [class.mandatory]="name == ''" required [(ngModel)]="name" name="name">
+          </div>
+        </div>
+
+        <div class='row'>
+          <span *ngIf="email != ''" class="glyphicon glyphicon-ok-sign"></span>
+          <div class='col-sm-5'>Email:</div>
+          <div class='col-sm-4'>
+            <input type="email" placeholder='sahilsethi@example.com' required class='form-control' [class.mandatory]="email == ''" [(ngModel)]="email" name="email">
+          </div>
+        </div>
+
+        <div class='row'>
+          <div class='col-sm-5'>Github:</div>
+          <div class='col-sm-4'>
+            <input type="text" placeholder='sahil-sethi' class='form-control' [(ngModel)]="github" name="github">
+          </div>
+        </div>
+
+        <div class='row'>
+          <div class='col-sm-5'>Stack Overflow:</div>
+          <div class='col-sm-4'>
+            <input type="text" placeholder='sahil-sethi' class='form-control' [(ngModel)]="stackoverflow" name="stackoverflow">
+          </div>
+        </div>
+
+        <div class='row'>
+          <div class='col-sm-5'>Twitter:</div>
+          <div class='col-sm-4'>
+            <input type="text" placeholder='@sahilsethi' class='form-control' [(ngModel)]="twitter" name="twitter">
+          </div>
+        </div>
+
+        <hr>
+
+        <div class='row'>
+          <div class='col-sm-5'>How would you rate your HTML ability?</div>
+          <div class='col-sm-1 col-xs-2 rangelabel'>  
+            Poor <span class="glyphicon glyphicon-thumbs-down"></span>
+          </div>
+          <div class='col-sm-5 col-xs-8'>
+              <input type="range" min="0" max="10" class='form-control' [(ngModel)]="html" name="html">
+          </div>
+          <div class='col-sm-1 col-xs-2 rangelabel'>
+            Great <span class="glyphicon glyphicon-thumbs-up"></span>
+          </div>
+        </div>
+
+        <div class='row'>
+          <div class='col-sm-5'>How would you rate your CSS ability?</div>
+          <div class='col-sm-1 col-xs-2 rangelabel'>  
+            Poor <span class="glyphicon glyphicon-thumbs-down"></span>
+          </div>
+          <div class='col-sm-5 col-xs-8'>
+              <input type="range" min="0" max="10" class='form-control' [(ngModel)]="css" name="css">
+          </div>
+          <div class='col-sm-1 col-xs-2 rangelabel'>
+            Great <span class="glyphicon glyphicon-thumbs-up"></span>
+          </div>
+        </div>
+
+        <div class='row'>
+          <div class='col-sm-5'>How would you rate your JavaScript ability?</div>
+          <div class='col-sm-1 col-xs-2 rangelabel'>  
+            Poor <span class="glyphicon glyphicon-thumbs-down"></span>
+          </div>
+          <div class='col-sm-5 col-xs-8'>
+              <input type="range" min="0" max="10" class='form-control' [(ngModel)]="javascript" name="javascript">
+          </div>
+          <div class='col-sm-1 col-xs-2 rangelabel'>
+            Great <span class="glyphicon glyphicon-thumbs-up"></span>
+          </div>
+        </div>
+
+        <div class='row'>
+          <div class='col-sm-5'>Are you up to date with the latest ECMAScript release?</div>
+          <div class='col-sm-1'>
+            <input type="radio" name="ecmascript" value="true" [(ngModel)]="ecmascript">&nbsp;Yes
+          </div>
+          <div class='col-sm-1'>
+            <input type="radio" name="ecmascript" value="false" [(ngModel)]="ecmascript">&nbsp;No
+          </div>
+        </div>
+
+        <hr>
+
+        <div class='row'>
+          <div class='col-sm-5'>Please select the framework(s) you have used:</div>
+            <div class='col-sm-2'>
+              <input type="checkbox" [disabled]="noframeworks.checked" data-tool-type='framework' (click)="toolObjectBuilder($event)" value="angular">&nbsp;Angular
+            </div>
+            <div class='col-sm-2'>
+              <input type="checkbox" [disabled]="noframeworks.checked" data-tool-type='framework' (click)="toolObjectBuilder($event)" value="react">&nbsp;React
+            </div>
+            <div class='col-sm-2'>
+              <input type="checkbox" [disabled]="noframeworks.checked" data-tool-type='framework' (click)="toolObjectBuilder($event)" value="jquery">&nbsp;JQuery
+            </div>
+            <div class='col-sm-1'>
+              <input type="checkbox" #noframeworks [disabled]="frameworks.length > 0 && !noframeworks.checked" data-tool-type='framework' (click)="toolObjectBuilder($event)" value="none">&nbsp;None
+            </div>
+        </div>
+
+        <div class='row'>
+          <div class='col-sm-5'>Please select the task runner(s) you have used:</div>
+            <div class='col-sm-2'>
+              <input type="checkbox" [disabled]="notaskrunners.checked" data-tool-type='taskrunner' (click)="toolObjectBuilder($event)" value="webpack">&nbsp;Webpack
+            </div>
+            <div class='col-sm-2'>
+              <input type="checkbox" [disabled]="notaskrunners.checked" data-tool-type='taskrunner' (click)="toolObjectBuilder($event)" value="grunt">&nbsp;Grunt
+            </div>
+            <div class='col-sm-2'>
+              <input type="checkbox" [disabled]="notaskrunners.checked" data-tool-type='taskrunner' (click)="toolObjectBuilder($event)" value="gulp">&nbsp;Gulp
+            </div>
+            <div class='col-sm-1'>
+              <input type="checkbox" data-tool-type='taskrunner' (click)="toolObjectBuilder($event)" #notaskrunners [disabled]="taskrunners.length > 0 && !notaskrunners.checked" value="none">&nbsp;None
+            </div>
+        </div>
+
+        <div class='row'>
+          <div class='col-sm-5'>Please select the version control tool(s) you have used:</div>
+            <div class='col-sm-2'>
+              <input type="checkbox" [disabled]="noversioncontrol.checked" data-tool-type='versioncontroltool' (click)="toolObjectBuilder($event)" value="github">&nbsp;Github
+            </div>
+            <div class='col-sm-2'>
+              <input type="checkbox" [disabled]="noversioncontrol.checked" data-tool-type='versioncontroltool' (click)="toolObjectBuilder($event)" value="bitbucket">&nbsp;Bitbucket
+            </div>
+            <div class='col-sm-2'>
+              <input type="checkbox" [disabled]="noversioncontrol.checked" data-tool-type='versioncontroltool' (click)="toolObjectBuilder($event)" value="gitlab">&nbsp;Gitlab
+            </div>
+            <div class='col-sm-1'>
+              <input type="checkbox" data-tool-type='versioncontroltool' (click)="toolObjectBuilder($event)" #noversioncontrol [disabled]="versioncontroltools.length > 0 && !noversioncontrol.checked" value="none">&nbsp;None
+            </div>
+        </div>
+
+        <div class='row'>
+          <div class='col-sm-5'>Please select the package manager(s) you have used:</div>
+            <div class='col-sm-2'>
+              <input type="checkbox" [disabled]="nopackagemanager.checked" data-tool-type='packagemanager' (click)="toolObjectBuilder($event)" value="npm">&nbsp;Npm
+            </div>
+            <div class='col-sm-2'>
+              <input type="checkbox" [disabled]="nopackagemanager.checked" data-tool-type='packagemanager' (click)="toolObjectBuilder($event)" value="yarn">&nbsp;Yarn
+            </div>
+            <div class='col-sm-2'>
+              <input type="checkbox" [disabled]="nopackagemanager.checked" data-tool-type='packagemanager' (click)="toolObjectBuilder($event)" value="bower">&nbsp;Bower
+            </div>
+            <div class='col-sm-1'>
+              <input type="checkbox" data-tool-type='packagemanager' (click)="toolObjectBuilder($event)" #nopackagemanager [disabled]="packagemanagers.length> 0 && !nopackagemanager.checked" value="none">&nbsp;None
+            </div>
+        </div>
+
+        <hr>
+
+        <div class='row'>
+          <div class='col-sm-12'>
+            <button type="submit" [disabled]="!skillsForm.form.valid" class='btn btn-lg btn-warning pull-right'>Submit</button>
+          </div>
+        </div>
+
+      </form>
+
+    </div>
+
+    <div [hidden]="!submitted">
+      <div class="alert alert-success">
+        Thank you for your submission <span class="glyphicon glyphicon-thumbs-up"></span> <br>
+        <div class="well well-sm">
+
+          <div *ngIf='body.name'>
+            <span class="glyphicon glyphicon-ok-sign"></span>
+            <span>Name: {{ body.name }}</span>
+          </div>
+
+          <div *ngIf='body.email'>
+            <span class="glyphicon glyphicon-ok-sign"></span>
+            <span>Email: {{ body.email }}</span>
+          </div>
+
+          <div *ngIf='body.github'>
+            <span class="glyphicon glyphicon-ok-sign"></span>
+            <span>GitHub: {{ body.github }}</span>
+          </div>
+
+          <div *ngIf='body.stackoverflow'>
+            <span class="glyphicon glyphicon-ok-sign"></span>
+            <span>Stack Overflow: {{ body.stackoverflow }}</span>
+          </div>
+
+          <div *ngIf='body.twitter'>
+            <span class="glyphicon glyphicon-ok-sign"></span>
+            <span>Twitter: {{ body.twitter }}</span>
+          </div>
+
+          <div *ngIf='body.html'>
+            <span class="glyphicon glyphicon-ok-sign"></span>
+            <span *ngIf="body.html != 0">HTML: {{ body.html }}</span>
+          </div>
+
+          <div *ngIf='body.css'>
+            <span class="glyphicon glyphicon-ok-sign"></span>
+            <span *ngIf="body.css != 0">CSS: {{ body.css }}</span>
+          </div>
+
+          <div *ngIf='body.javascript'>
+            <span class="glyphicon glyphicon-ok-sign"></span>
+            <span *ngIf="body.javascript != 0">JavaScript: {{ body.javascript }}</span>
+          </div>
+
+          <div *ngIf='body.ecmascript'>
+            <span class="glyphicon glyphicon-ok-sign"></span>
+            <span>ECMAScript: {{ body.ecmascript }}</span>
+          </div>
+
+          <div *ngIf='body.frameworks != ""'>
+            <span class="glyphicon glyphicon-ok-sign"></span>
+            <span>Frameworks: {{ body.frameworks }}</span>
+          </div>
+
+          <div *ngIf='body.taskrunners != ""'>
+            <span class="glyphicon glyphicon-ok-sign"></span>
+            <span>Task Runners: {{ body.taskrunners }}</span>
+          </div>
+
+          <div *ngIf='body.versioncontroltools != ""'>
+            <span class="glyphicon glyphicon-ok-sign"></span>
+            <span>Version Control Tools: {{ body.versioncontroltools }}</span>
+          </div>
+
+          <div *ngIf='body.packagemanagers != ""'>
+            <span class="glyphicon glyphicon-ok-sign"></span>
+            <span>Package Managers: {{ body.packagemanagers }}</span>
+          </div>
+        </div>
+      </div>
+      <button type="button" class='btn btn-warning pull-right' routerLink="/thankyou">Check Your Results!</button>
+    </div>
+
+</div>

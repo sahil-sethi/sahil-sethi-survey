@@ -1,0 +1,381 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"backtrac",
+				"debug_backtrace"
+			],
+			[
+				"debug",
+				"debug_print_backtrace"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/run/user/1000/gvfs/sftp:host=be.ifuture.com,user=bedmas/var/www/beforeifly.ifuture.com/sites/beforeifly.ifuture.com/modules/ifuture/if_queue/js/if_queue-report.js",
+			"settings":
+			{
+				"buffer_size": 4895,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/jam/Documents/apple/src",
+		"/home/jam/Documents/apple/src/app"
+	],
+	"file_history":
+	[
+		"/home/jam/Documents/apple/src/app/app.component.html",
+		"/home/jam/Documents/apple/src/app/app.component.ts",
+		"/home/jam/Documents/apple/src/app/app.module.ts",
+		"/home/jam/Documents/apple/src/index.html",
+		"/home/jam/Documents/apple/src/app/app.component.spec.ts",
+		"/run/user/1000/gvfs/sftp:host=devl.ifuture.com,user=bedmas/var/www/vhosts/sites/devl.ifuture.com/modules/ifuture/if_queue/lib/perl/Bedmas/XML.pm",
+		"/run/user/1000/gvfs/sftp:host=devl.ifuture.com,user=bedmas/var/www/vhosts/sites/devl.ifuture.com/modules/ifuture/if_queue/lib/perl/iFuture/Quote.pm",
+		"/run/user/1000/gvfs/sftp:host=devl.ifuture.com,user=bedmas/var/www/vhosts/sites/devl.ifuture.com/modules/ifuture/if_queue/lib/perl/iFuture/Test/FareComponentTest.pl",
+		"/run/user/1000/gvfs/sftp:host=devl.ifuture.com,user=bedmas/var/www/vhosts/sites/devl.ifuture.com/modules/ifuture/if_queue/lib/perl/iFuture/FareComponent.pm",
+		"/run/user/1000/gvfs/sftp:host=devl.ifuture.com,user=bedmas/var/www/vhosts/sites/devl.ifuture.com/modules/ifuture/if_queue/lib/perl/iFuture/ContractGroup.pm",
+		"/run/user/1000/gvfs/sftp:host=devl.ifuture.com,user=bedmas/var/www/vhosts/sites/devl.ifuture.com/modules/ifuture/if_queue/bin/contract.pl",
+		"/home/jam/Documents/jquery-calculator/anna_calculator/script.js",
+		"/home/jam/Documents/jquery-calculator/anna_calculator/style.css",
+		"/home/jam/Documents/jquery-calculator/Maryam_Calculator/index.html",
+		"/home/jam/Documents/jquery-calculator/index.html",
+		"/home/jam/Documents/jquery-calculator/Maryam_Calculator/script.js",
+		"/home/jam/Documents/jquery-calculator/jessica-calculator/calculator.js",
+		"/run/user/1000/gvfs/sftp:host=devl.ifuture.com,user=bedmas/var/www/vhosts/sites/devl.ifuture.com/modules/ifuture/if_queue/lib/perl/iFuture/FareComponentTest.pl",
+		"/run/user/1000/gvfs/sftp:host=devl.ifuture.com,user=bedmas/var/www/vhosts/sites/devl.ifuture.com/modules/ifuture/if_queue/lib/perl/iFuture/FareComponent.pl",
+		"/run/user/1000/gvfs/sftp:host=devl.ifuture.com,user=bedmas/var/www/vhosts/sites/marginmanager/data/file.1424798720",
+		"/run/user/1000/gvfs/sftp:host=devl.ifuture.com,user=bedmas/var/www/vhosts/sites/devl.ifuture.com/modules/ifuture/if_queue/if_queue.module",
+		"/run/user/1000/gvfs/sftp:host=devl.ifuture.com,user=bedmas/var/www/vhosts/drupal6/misc/autocomplete.js",
+		"/run/user/1000/gvfs/sftp:host=devl.ifuture.com,user=bedmas/var/www/vhosts/sites/devl.ifuture.com/modules/ifuture/ifuture.module",
+		"/run/user/1000/gvfs/sftp:host=devl.ifuture.com,user=bedmas/var/www/vhosts/sites/devl.ifuture.com/themes/responsive/page.tpl.php",
+		"/run/user/1000/gvfs/sftp:host=devl.ifuture.com,user=bedmas/var/www/vhosts/sites/devl.ifuture.com/themes/responsive/style.css",
+		"/run/user/1000/gvfs/sftp:host=be.ifuture.com,user=bedmas/var/www/protrav.ifuture.com/sites/protrav.ifuture.com/modules/ifuture/if_queue/if_queue_view.inc.php",
+		"/run/user/1000/gvfs/sftp:host=be.ifuture.com,user=bedmas/var/www/protrav.ifuture.com/sites/protrav.ifuture.com/modules/ifuture/if_queue/js/if_queue.js",
+		"/run/user/1000/gvfs/sftp:host=devl.ifuture.com,user=bedmas/var/www/vhosts/sites/devl.ifuture.com/modules/ifuture/if_queue/if_queue_view.inc.php",
+		"/run/user/1000/gvfs/sftp:host=devl.ifuture.com,user=bedmas/var/www/vhosts/sites/devl.ifuture.com/modules/ifuture/ifuture_log/ifuture_log.module",
+		"/run/user/1000/gvfs/sftp:host=devl.ifuture.com,user=bedmas/var/www/vhosts/sites/devl.ifuture.com/modules/ifuture/ifuture_log/ifuture_log_list.inc.php",
+		"/run/user/1000/gvfs/sftp:host=devl.ifuture.com,user=bedmas/var/www/vhosts/sites/devl.ifuture.com/modules/ifuture/if_queue/bin/queue_once.php",
+		"/run/user/1000/gvfs/sftp:host=devl.ifuture.com,user=bedmas/var/www/vhosts/sites/devl.ifuture.com/modules/ifuture/if_queue/if_queue_actions.inc.php",
+		"/run/user/1000/gvfs/sftp:host=devl.ifuture.com,user=bedmas/var/www/vhosts/sites/devl.ifuture.com/modules/protrav/protrav.module",
+		"/run/user/1000/gvfs/sftp:host=devl.ifuture.com,user=bedmas/var/www/vhosts/sites/devl.ifuture.com/modules/ifuture/if_queue/QueueObject.class.php",
+		"/run/user/1000/gvfs/sftp:host=devl.ifuture.com,user=bedmas/var/www/vhosts/sites/devl.ifuture.com/modules/ifuture/if_report/if_report.module",
+		"/run/user/1000/gvfs/sftp:host=devl.ifuture.com,user=bedmas/var/www/vhosts/sites/devl.ifuture.com/modules/ifuture/UAPI/UAPI.class.php",
+		"/run/user/1000/gvfs/sftp:host=be.ifuture.com,user=bedmas/var/www/encore.ifuture.com/sites/encore.ifuture.com/modules/ifuture/if_queue/bin/queue_once.php",
+		"/run/user/1000/gvfs/sftp:host=devl.ifuture.com,user=bedmas/var/www/vhosts/sites/devl.ifuture.com/modules/beforeifly/beforeifly.module",
+		"/run/user/1000/gvfs/sftp:host=uat.ifuture.com,user=bedmas/var/www/vhosts/sites/montrose.ifuture.com/modules/ifuture/margins/margins.module",
+		"/run/user/1000/gvfs/sftp:host=devl.ifuture.com,user=bedmas/var/www/vhosts/sites/devl.ifuture.com/modules/ifuture/if_queue/lib/perl/iFuture/Contracts.pm",
+		"/run/user/1000/gvfs/sftp:host=devl.ifuture.com,user=bedmas/var/www/vhosts/sites/devl.ifuture.com/modules/ifuture/if_queue/lib/perl/iFuture/Contract.pm",
+		"/run/user/1000/gvfs/sftp:host=devl.ifuture.com,user=bedmas/var/www/vhosts/sites/devl.ifuture.com/modules/ifuture/if_queue/lib/perl/iFuture/Margin.pm",
+		"/run/user/1000/gvfs/sftp:host=devl.ifuture.com,user=bedmas/var/www/vhosts/sites/devl.ifuture.com/modules/ifuture/if_queue/css/if_queue.css",
+		"/run/user/1000/gvfs/sftp:host=devl.ifuture.com,user=bedmas/var/www/vhosts/sites/all/modules/cck/includes/content.node_form.inc",
+		"/run/user/1000/gvfs/sftp:host=devl.ifuture.com,user=bedmas/var/www/vhosts/sites/all/modules/cck/content.module",
+		"/run/user/1000/gvfs/sftp:host=devl.ifuture.com,user=bedmas/var/www/vhosts/drupal6/includes/common.inc",
+		"/run/user/1000/gvfs/sftp:host=devl.ifuture.com,user=bedmas/var/www/vhosts/sites/all/modules/jquery_update/replace/ahah.js",
+		"/run/user/1000/gvfs/sftp:host=be.ifuture.com,user=bedmas/var/www/encore.ifuture.com/sites/encore.ifuture.com/modules/ifuture/if_queue/if_queue_commission.inc.php",
+		"/run/user/1000/gvfs/sftp:host=be.ifuture.com,user=bedmas/var/www/encore.ifuture.com/sites/encore.ifuture.com/modules/ifuture/UAPI/TicketingModifiers.class.php",
+		"/run/user/1000/gvfs/sftp:host=be.ifuture.com,user=bedmas/var/www/encore.ifuture.com/sites/encore.ifuture.com/modules/ifuture/UAPI/UAPI.class.php",
+		"/run/user/1000/gvfs/sftp:host=devl.ifuture.com,user=bedmas/var/www/vhosts/sites/all/modules/jquery_ui/jquery_ui.module",
+		"/run/user/1000/gvfs/sftp:host=devl.ifuture.com,user=bedmas/var/www/vhosts/drupal6/includes/locale.inc",
+		"/run/user/1000/gvfs/sftp:host=be.ifuture.com,user=bedmas/var/www/protrav.ifuture.com/sites/protrav.ifuture.com/modules/ifuture/if_queue/if_queue.module",
+		"/home/jam/.bash_history",
+		"/run/user/1000/gvfs/sftp:host=be.ifuture.com,user=bedmas/var/www/protrav.ifuture.com/sites/protrav.ifuture.com/themes/responsive/style.css",
+		"/run/user/1000/gvfs/sftp:host=be.ifuture.com,user=bedmas/var/www/protrav.ifuture.com/sites/all/modules/taxonomy_manager/taxonomy_manager.module",
+		"/run/user/1000/gvfs/sftp:host=be.ifuture.com,user=bedmas/var/www/protrav.ifuture.com/sites/all/modules/taxonomy_manager/taxonomy_manager.admin.inc",
+		"/run/user/1000/gvfs/sftp:host=be.ifuture.com,user=bedmas/var/www/protrav.ifuture.com/sites/protrav.ifuture.com/modules/ifuture/search_flights/search_flights.inc.php",
+		"/run/user/1000/gvfs/sftp:host=be.ifuture.com,user=bedmas/var/www/protrav.ifuture.com/sites/protrav.ifuture.com/modules/ifuture/if_queue/bin/queue_once.php",
+		"/run/user/1000/gvfs/sftp:host=be.ifuture.com,user=bedmas/var/www/protrav.ifuture.com/sites/protrav.ifuture.com/modules/ifuture/if_queue/if_monitor/if_monitor.module",
+		"/run/user/1000/gvfs/sftp:host=be.ifuture.com,user=bedmas/var/www/protrav.ifuture.com/sites/protrav.ifuture.com/modules/ifuture/if_queue/if_monitor/bin/queue_monitor.php",
+		"/run/user/1000/gvfs/sftp:host=be.ifuture.com,user=bedmas/var/www/protrav.ifuture.com/sites/all/modules/cck/content.js",
+		"/run/user/1000/gvfs/sftp:host=be.ifuture.com,user=bedmas/var/www/protrav.ifuture.com/sites/protrav.ifuture.com/modules/ifuture/if_queue/if_monitor/if_monitor_list.inc.php",
+		"/run/user/1000/gvfs/sftp:host=be.ifuture.com,user=bedmas/var/www/protrav.ifuture.com/sites/protrav.ifuture.com/modules/ifuture/UAPI/UAPI.class.php",
+		"/run/user/1000/gvfs/sftp:host=be.ifuture.com,user=bedmas/var/www/protrav.ifuture.com/sites/protrav.ifuture.com/modules/ifuture/ifuture_dash/css/ifuture_dash.css",
+		"/run/user/1000/gvfs/sftp:host=be.ifuture.com,user=bedmas/var/www/protrav.ifuture.com/sites/protrav.ifuture.com/files/data/search_flights/887/GWS.0",
+		"/run/user/1000/gvfs/sftp:host=be.ifuture.com,user=bedmas/var/www/protrav.ifuture.com/sites/protrav.ifuture.com/modules/ifuture/search_flights/lib/perl/iFuture/Margin.pm",
+		"/run/user/1000/gvfs/sftp:host=be.ifuture.com,user=bedmas/var/www/encore.ifuture.com/sites/encore.ifuture.com/modules/ifuture/lib/perl/iFuture/Margin.pm",
+		"/run/user/1000/gvfs/sftp:host=be.ifuture.com,user=bedmas/var/www/protrav.ifuture.com/sites/protrav.ifuture.com/modules/ifuture/search_flights/search_flights-flight_data3_db.inc.php",
+		"/run/user/1000/gvfs/sftp:host=be.ifuture.com,user=bedmas/var/www/protrav.ifuture.com/sites/protrav.ifuture.com/modules/ifuture/search_flights/search_flights-flight_data3_detail_db.inc.php",
+		"/run/user/1000/gvfs/sftp:host=be.ifuture.com,user=bedmas/var/www/protrav.ifuture.com/sites/protrav.ifuture.com/settings.php",
+		"/run/user/1000/gvfs/sftp:host=be.ifuture.com,user=bedmas/var/www/protrav.ifuture.com/sites/protrav.ifuture.com/modules/ifuture/search_flights/sf-load_data.pl",
+		"/run/user/1000/gvfs/sftp:host=be.ifuture.com,user=bedmas/var/www/protrav.ifuture.com/sites/protrav.ifuture.com/modules/ifuture/search_flights/sf-cdebug.pl",
+		"/run/user/1000/gvfs/sftp:host=be.ifuture.com,user=bedmas/var/www/protrav.ifuture.com/sites/protrav.ifuture.com/modules/ifuture/search_flights/sf-refresh.sh",
+		"/run/user/1000/gvfs/sftp:host=be.ifuture.com,user=bedmas/var/www/protrav.ifuture.com/sites/protrav.ifuture.com/modules/ifuture/search_flights/lib/perl/iFuture/BlackBox.pm",
+		"/run/user/1000/gvfs/sftp:host=be.ifuture.com,user=bedmas/var/www/protrav.ifuture.com/sites/protrav.ifuture.com/modules/ifuture/search_flights/lib/perl/iFuture/Contracts.pm",
+		"/run/user/1000/gvfs/sftp:host=be.ifuture.com,user=bedmas/var/www/protrav.ifuture.com/sites/protrav.ifuture.com/modules/ifuture/search_flights/lib/perl/iFuture/Contract.pm",
+		"/run/user/1000/gvfs/sftp:host=be.ifuture.com,user=bedmas/var/www/protrav.ifuture.com/sites/protrav.ifuture.com/modules/ifuture/search_flights/lib/perl/iFuture/Quote.pm",
+		"/run/user/1000/gvfs/sftp:host=be.ifuture.com,user=bedmas/var/www/protrav.ifuture.com/sites/protrav.ifuture.com/modules/ifuture/search_flights/lib/perl/Bedmas/Init.pm",
+		"/run/user/1000/gvfs/sftp:host=be.ifuture.com,user=bedmas/var/www/beforeifly.ifuture.com/sites/beforeifly.ifuture.com/modules/ifuture/search_flights/search_flights-booking-forms_db.inc.php",
+		"/run/user/1000/gvfs/sftp:host=be.ifuture.com,user=bedmas/var/www/beforeifly.ifuture.com/sites/beforeifly.ifuture.com/modules/ifuture/lib/perl/iFuture/Quote.pm"
+	],
+	"find":
+	{
+		"height": 32.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"FAreComponent",
+			"debug",
+			"~=",
+			"start error log",
+			"log",
+			";\n",
+			"action",
+			"view",
+			"autoco",
+			"logout",
+			"arg",
+			"percent",
+			"if_log",
+			"if_queue",
+			"exit",
+			"system",
+			"queue_load",
+			"queue_object",
+			"queue_once",
+			"if_queue_once",
+			"Parent",
+			"load_contracts",
+			"_load_terms_data",
+			"field_passenger_types_value",
+			"field_passenger",
+			"load",
+			"complete",
+			"ajaxSubmit",
+			"function set_attr",
+			"set_att",
+			"set_tt",
+			"ui.tabs",
+			"ui.core",
+			"jquery_ud",
+			"taxonomy_manager_tree_build_form",
+			"_taxonomy_manager_tree_get_item",
+			"exit",
+			"get_tree",
+			"'tree'",
+			"['taxonomy']['tree']",
+			"#elements",
+			"$form['taxonomy']",
+			"taxonomy_manager_double_tree_settings_form",
+			"taxonomy_manager_form_term_data",
+			"_taxonomy_manager_form_term_data_lists",
+			"currency",
+			"system",
+			"node",
+			"default",
+			"ZXP71US",
+			"1289.29",
+			"check_seat_class",
+			"seat_class",
+			"json",
+			"segments",
+			"segment_index",
+			"sector",
+			"check_seat_class",
+			"_find_seat_classes",
+			"seat",
+			"sfSectors",
+			"exit",
+			"sub segment",
+			"sfSectors",
+			"sectors",
+			"check_airports",
+			"sfid",
+			"delete",
+			"request",
+			"Passanger",
+			"passanger"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"=~",
+			"ifuture_log",
+			"if_log",
+			"segments",
+			"passenger"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"folders":
+	[
+		{
+			"path": "/home/jam/Documents/apple/src"
+		}
+	],
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/run/user/1000/gvfs/sftp:host=be.ifuture.com,user=bedmas/var/www/beforeifly.ifuture.com/sites/beforeifly.ifuture.com/modules/ifuture/if_queue/js/if_queue-report.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4895,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 22.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "",
+	"replace":
+	{
+		"height": 58.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"987",
+				"sites/marginmanager/data/file.1424798720"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 332.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

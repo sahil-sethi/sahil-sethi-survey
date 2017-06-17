@@ -1,0 +1,85 @@
+tr:nth-child(even) {
+	background-color: #eee;
+}
+
+tr:nth-child(odd) {
+   	background-color:#fff;
+}
+
+th {
+	background-color: black;
+	color: orange;
+	font-weight: normal;
+	text-align: center;
+}
+
+button {
+	margin: auto 0;
+}
+
+table {
+	font-size: 11px;
+}
+
+.metric {
+	height: 100px;
+	width: 100px;
+	background-color: black;
+	border-radius: 50%;
+	line-height: 100px;
+	color: orange;
+}
+
+span {
+	font-style: italic;
+}
+
+.metricContainer {
+	margin-top: 0px;
+	margin-bottom: 25px;
+	margin-left: auto;
+	margin-right: auto;
+    position: relative;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    border-radius: 70px;
+}
+
+.es6Container {
+	margin-top: 0px;
+	margin-bottom: 25px;
+	margin-left: auto;
+	margin-right: auto;
+    position: relative;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+    border-radius: 70px;
+}
+
+.es6Metric {
+	height: 200px;
+	width: 200px;
+	background-color: black;
+	border-radius: 50%;
+	line-height: 200px;
+	color: orange;
+	font-size: 20px;
+}
+
+.background {
+	width: 40%;
+	margin: 25px auto;
+	/*background-color: lightgrey;*/
+	border-radius: 60px;
+}
+
+.metric:hover, .es6Metric:hover {
+	color: black;
+	background-color: orange;
+}
+
+h5 {
+	margin-bottom: 0px;
+}

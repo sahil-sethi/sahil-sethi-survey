@@ -1,0 +1,51 @@
+<!-- ThankYouComponent HTML -->
+<div class="text-center">
+	<button type="button" class='btn btn-warning' routerLink="/survey">Try Again</button>
+	<button type="button" class='btn btn-warning' *ngIf="!metricflag" (click)="metricDisplay()">Display Metrics</button>
+	<button type="button" class='btn btn-warning' *ngIf="metricflag" (click)="metricDisplay()">Hide Metrics</button>
+	<hr>
+	<div class="background" *ngIf="metricflag">
+		<!-- <h5>Average Skill Rating</h5> -->
+		<div class="metricContainer">
+			<div class="metric"><span>html</span> {{ htmlavg }}</div>
+			<div class="metric"><span>css</span> {{ cssavg }}</div>
+			<div class="metric"><span>js</span> {{ javascriptavg }}</div>
+		</div>
+		<!-- <h5>ECMAScript 6 Users</h5> -->
+		<div class="es6Container">
+			<div class="es6Metric"><span>es6</span> {{ ecmascriptpercentage }} %</div>
+		</div>
+	</div>
+	<table class="table">
+		<tr>	
+			<th>Name</th>
+			<th>Email</th>
+			<th>Github</th>
+			<th>Stack Overflow</th>
+			<th>Twitter</th>
+			<th>HTML</th>
+			<th>CSS</th>
+			<th>JavaScript</th>
+			<th>ECMAScript</th>
+			<th>Frameworks</th>
+			<th>Task Runners</th>
+			<th>Version Control Tools</th>
+			<th>Package Managers</th>
+		</tr>
+	    <tr *ngFor="let field of data">
+	    	<td>{{ field.name }}</td> 
+	    	<td>{{ field.email }}</td>
+	    	<td>{{ field.github }}</td>
+	    	<td>{{ field.stackoverflow }}</td>
+	    	<td>{{ field.twitter }}</td>
+	    	<td>{{ field.html }}</td>
+	    	<td>{{ field.css }}</td>
+	    	<td>{{ field.javascript }}</td>
+	    	<td>{{ field.ecmascript }}</td>
+	    	<td>{{ field.frameworks }}</td>
+	    	<td>{{ field.taskrunners }}</td>
+	    	<td>{{ field.versioncontroltools }}</td>
+	    	<td>{{ field.packagemanagers }}</td> 
+	    </tr>
+	</table>
+</div>
